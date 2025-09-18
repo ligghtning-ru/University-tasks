@@ -1,10 +1,12 @@
 #include <stdio.h>
 #include <math.h>
 
-int main(){
+int main(void){
     double x, res;
+
     printf("Enter x:\n");
     scanf("%lf", &x);
+    
     if (x < 0.2){
         res = exp(x) + tan(x) + 0.1;
     }
@@ -15,7 +17,7 @@ int main(){
         res = cbrt(pow(x, 3) + 0.515);
     }
 
-    printf("res for some case, res = %lf", res);
+    printf("res = %lf", res);
     
     return 0;
 }

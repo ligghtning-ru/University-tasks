@@ -50,7 +50,7 @@ bool validate_sides(double a, double b, double c){
 }
 
 
-int main(){
+int main(void){
     double a, b, c;
     bool is_ortangle = false, is_isosceles = false, is_equilateral = false;
 
